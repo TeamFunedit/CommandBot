@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from discord import Interaction, app_commands
 
-#make sure to have .env edited too!
+#make sure to have .env added too!
 load.env()
 
 token = os.getenv('DISCORD_TOKEN')
